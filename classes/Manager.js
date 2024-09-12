@@ -10,8 +10,8 @@ class Manager extends Employee {
    getEmployeesManaged() {
     return this.#employeesManaged;
    } 
-  
-   addEmployeeManaged(employee) {
+
+   setEmployeesManaged(employee) {
     if (employee instanceof Employee) {
         this.#employeesManaged.push(employee);
     }else {

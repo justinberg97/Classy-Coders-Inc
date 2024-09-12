@@ -1,16 +1,16 @@
 const {Employee} = require('./Employee')
 
 class SalesPerson extends Employee{
-    #totalSales = [];
+    #clients = [];
+    #totalSales = 0;
     constructor(name, position, salary) {
         super(name, position, salary);
-        this.clients = [];
     }
-getSalesNumbers() {
+getSalesNumber() {
     return this.#totalSales;
 }
 makeSale(amount) {
-    if (amount > 0 ) {
+    if (typeof amount === 'number' && amount >0 ) {
         this.#totalSales += amount;
     } else {
         throw new Error ('Sales must be greater than zero')
