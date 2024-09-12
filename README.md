@@ -2,6 +2,9 @@
 
 # Classy Coders Inc. 👩‍💻
 
+# Version Created by Justin Berg
+# I followed the 
+
 In a tech-driven world, the importance of skilled employees cannot be overstated. Enter "Classy Coders Inc", a software development company on a mission to revolutionize the way businesses operate. As a budding developer, you've just landed a job at this esteemed establishment and are tasked with creating a series of classes that represents employees at the company and will underlie the systems they are building.
 
 They have provided you with the following class diagram that represents their current workforce.
